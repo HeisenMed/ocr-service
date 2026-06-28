@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Claude Code
+.claude/
+
+# CREDENCIALES SECRETAS - NUNCA SUBIR
+credentials.json
+*.key
+.env
+
+# Archivos temporales del OCR
+resultados/deteccion_tabla/
+resultados/filas_recortadas/
+resultados/_chk_*.jpg
+resultados/paso_*.jpg
+resultados/v2_*.jpg
+resultados/v3_*.jpg
+resultados/test_*.png
+resultados/debug_*.jpg
+
+# Resultados de calificación e imágenes procesadas (datos generados, no código)
+resultados/hojas/
+resultados/paginas_pdf/
+resultados/*.json
+resultados/plantilla_visualizada.jpg
+
+# Imágenes de prueba (pesadas, no van al repo)
+imagenes_prueba/*.jpg
+imagenes_prueba/*.png
+imagenes_prueba/*.pdf
+
+# Scripts de prueba/referencia (no van al repo de producción)
+tests/
+
+# Sistema
+.DS_Store
+Thumbs.db
